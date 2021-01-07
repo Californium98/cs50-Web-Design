@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <a class="links" id="photo" href="photos.html">Photo Search</a>
+      <a class="links" id="advanced" href="advanced.html">Advanced Search</a>
+    </div>
+    <div id="image-container">
+      <img src="googlelogo.png" id="google-image" alt="" />
+    </div>
+
+    <div id="container">
+      <form action="https://google.com/search">
+        <div id="top">
+          <input type="text" name="q" id="search-bar" />
+        </div>
+        <div id="bottom">
+          <input type="submit" value="Google Search" class="button" />
+          <button
+            type="submit"
+            class="button"
+            value="I'm Feeling Lucky"
+            aria-label="I'm Feeling Lucky"
+            name="btnI"
+          >
+            I'm Feeling Lucky
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

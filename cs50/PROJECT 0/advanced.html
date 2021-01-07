@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="advanced-header">
+      <img src="googlelogo.png" alt="" id="google-header-image" />
+      <a class="links" href="index.html">Google Search</a>
+    </div>
+    <div id="advancedsearch">
+      <p>Advanced Search</p>
+    </div>
+    <div id="main-container">
+      <div id="second-container">
+        <p id="f-p-w">Find pages with...</p>
+        <form action="https://www.google.com/search">
+          <div class="input-line">
+            <div class="word-container">
+              <p class="ad-des">all these words:</p>
+            </div>
+            <input class="ad-input" type="text" name="as_q" />
+          </div>
+          <div class="input-line">
+            <div class="word-container">
+              <p class="ad-des">this exact word or phrase:</p>
+            </div>
+            <input class="ad-input" type="text" name="as_epq" />
+          </div>
+          <div class="input-line">
+            <div class="word-container">
+              <p class="ad-des">any of these words:</p>
+            </div>
+            <input class="ad-input" type="text" name="as_oq" />
+          </div>
+          <div class="input-line">
+            <div class="word-container">
+              <p class="ad-des">none of these words:</p>
+            </div>
+            <input class="ad-input" type="text" name="as_eq" />
+          </div>
+          <div class="input-line">
+            <div class="word-container"></div>
+            <input
+              type="submit"
+              value="Advanced Search"
+              id="advanced-search-button"
+              class="ad-input"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
